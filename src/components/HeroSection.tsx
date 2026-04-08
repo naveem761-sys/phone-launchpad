@@ -14,19 +14,24 @@ const HeroSection = () => {
         {/* Text */}
         <div className="text-center lg:text-left space-y-6">
           <p className="text-sm font-semibold tracking-[0.2em] uppercase text-primary animate-fade-up">
-            Introducing
+            Introducing the change from my local.
           </p>
           <h1 className="text-5xl md:text-7xl font-black leading-[1.05] tracking-tight animate-fade-up-delay-1">
             Nova <span className="text-gradient">Ultra</span>
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground max-w-md mx-auto lg:mx-0 animate-fade-up-delay-2">
-            Experience the future of mobile technology. Titanium design, AI-powered camera, and all-day battery life.
+            Experience the future of mobile technology. Titanium design,
+            AI-powered camera, and all-day battery life.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start animate-fade-up-delay-2">
             <Button size="lg" className="glow text-base font-semibold px-8">
               Pre-order Now <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
-            <Button variant="outline" size="lg" className="text-base font-semibold px-8">
+            <Button
+              variant="outline"
+              size="lg"
+              className="text-base font-semibold px-8"
+            >
               Learn More
             </Button>
           </div>

@@ -18,7 +18,8 @@ const FeaturesSection = () => {
             Why <span className="text-gradient">Nova Ultra</span>
           </h2>
           <p className="mt-4 text-muted-foreground text-lg max-w-xl mx-auto">
-            Every detail engineered to perfection.
+            Every detail engineered to perfection this change is coming from my
+            local .
           </p>
         </div>
 
